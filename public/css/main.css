@@ -9,10 +9,14 @@ body {
 
 @media screen and (max-width: 480px) {
   .nav-header .btn {
-    display: none;
-    /* this also works -- visibility: hidden; */
+    visibility: hidden;
+    /* this also works -- display: none; */
   }
-  .hamburger {
+  body {
+    background: white;
+  }
+
+  /*.hamburger {
     display: block;
     width: 3em;
     height: 3em;
@@ -26,12 +30,12 @@ body {
   }
   .hamburger>span:nth-child(2) {
     margin: 4px 0;
-  }
+  }*/
 }
 
 @media screen and (max-width: 768px) {
   .nav-header .btn {
-    background-color: white;
+    background-color: grey;
     /* this also works -- visibility: hidden; */
   }
 }
