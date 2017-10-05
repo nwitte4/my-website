@@ -25,31 +25,25 @@ body { background: linear-gradient(to left, grey,white,grey)}
       margin: 4px 0;
     }
 
-  .list-1{
-    width: 100%
-  }
-  .list-2{
-    width: 100%
-  }
-  .list-3{
-    width: 100%
-  }
 }
 
 @media screen and (max-width: 768px) {
-
+  .list-group{
+    background-color: white;
+    font-family: monospace;
+  }
 
 }
 @media screen and (max-width: 992px){
-
+  .btn{
+    border: 2px dotted #444444;
+    border-radius: 2px;
+  }
 
 }
-
-
 img {
   max-width: 100%
 }
-
 .nav-header{
   background-color: pink;
   position: fixed;
@@ -73,7 +67,6 @@ img {
   background-color: black;
   border: 2px solid #444444;
   border-radius: 2px;
-  /*box-shadow: 10px 10px 5px #888*/
   display: inline-block;
   text-decoration: none;
   color: white;
@@ -186,18 +179,6 @@ img {
   animation-delay: 1s
 }
 @keyframes drop{
-  /* ZIG ZAG
-  0% { transform: translateX(0);}
-  10% { transform: translateY(20px);}
-  20% { transform: translateX(40px);}
-  30% { transform: translateY(60px);}
-  40% { transform: translateX(80px);}
-  50% { transform: translateY(100px);}
-  60% { transform: translateX(80px);}
-  70% { transform: translateY(60px);}
-  80% { transform: translateX(40px);}
-  90% { transform: translateY(20px);}
-  100% { transform: translateX(0);}*/
   0% {transform: translateY(0);}
   50% {transform: translateY(80px);}
   100% {transform: translateY(0);}
