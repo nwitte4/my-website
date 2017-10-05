@@ -2,27 +2,27 @@
   box-sizing: border-box;
 
 }
-body { background: linear-gradient(to left, grey,white,white,grey)}
+body { background: linear-gradient(to left, grey,white,grey)}
 
 @media screen and (max-width: 480px) {
     .nav-header .btn{
       display: none;
-  /*     visibility: hidden; */
+  /* this also works -- visibility: hidden; */
     }
     .hamburger{
-    display: block;
-    width: 3em;
-    height: 3em;
+      display: block;
+      width: 3em;
+      height: 3em;
     }
     .hamburger > span{
-    background-color: black;
-    display: block;
-    width: 100%;
-    height: 0.5em;
-    border-radius: 5px;
+      background-color: black;
+      display: block;
+      width: 100%;
+      height: 0.5em;
+      border-radius: 5px;
     }
     .hamburger > span:nth-child(2){
-    margin: 4px 0;
+      margin: 4px 0;
     }
 
   .list-1{
@@ -53,13 +53,13 @@ img {
 .nav-header{
   background-color: pink;
   position: fixed;
-  height: 60px;
+  height: 50px;
   width: 100vw;
   top: 0;
   left: 0;
   z-index: 999;
 }
-.container{
+.page-name{
   margin-top: 70px;
   text-align: center;
 }
