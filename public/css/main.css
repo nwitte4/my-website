@@ -4,7 +4,6 @@
 
 body {
   background: linear-gradient(to left, grey, white, grey)
-
 }
 
 @media screen and (max-width: 480px) {
@@ -15,7 +14,6 @@ body {
   body {
     background: white;
   }
-
   /*.hamburger {
     display: block;
     width: 3em;
@@ -41,11 +39,9 @@ body {
 }
 
 @media screen and (max-width: 992px) {
-
   body {
     background: grey;
   }
-
 }
 
 img {
