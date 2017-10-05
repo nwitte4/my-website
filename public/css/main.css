@@ -11,9 +11,6 @@ body {
     visibility: hidden;
     /* this also works -- display: none; */
   }
-  body {
-    background: white;
-  }
   /*.hamburger {
     display: block;
     width: 3em;
