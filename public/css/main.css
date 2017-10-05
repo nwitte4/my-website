@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+  background-color: red;
 }
 body { background: linear-gradient(to left, grey,white,white,grey)}
 
