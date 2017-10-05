@@ -4,6 +4,7 @@
 
 body {
   background: linear-gradient(to left, grey, white, grey)
+
 }
 
 @media screen and (max-width: 480px) {
@@ -29,17 +30,18 @@ body {
 }
 
 @media screen and (max-width: 768px) {
-  .list-group {
+  .nav-header .btn {
     background-color: white;
-    font-family: monospace;
+    /* this also works -- visibility: hidden; */
   }
 }
 
 @media screen and (max-width: 992px) {
-  .btn {
-    border: 2px dotted #444444;
-    border-radius: 2px;
+
+  body {
+    background: grey;
   }
+
 }
 
 img {
