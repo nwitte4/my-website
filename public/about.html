@@ -1,54 +1,42 @@
 <!DOCTYPE html>
 <html>
 
-<head>
-  <meta charset="utf-8">
-  <title>About Page</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.css">
-  <link rel="stylesheet" href="css/main.css">
-  <style>
-    ul {
-      list-style-type: none;
-    }
-  </style>
-</head>
+  <head>
+    <meta charset="utf-8">
+    <title>About Page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+    <style> ul{ list-style-type: none; } </style>
+  </head>
 
-<body>
+  <body>
 
-  <nav class="nav-header">
-    <!--containers, don't do much, are descriptive for syling and accessibility-->
-    <div class="btn-group left">
-      <a href="index.html" class="btn">Home</a>
-    </div>
-    <div class="btn-group right">
-      <a href="about.html" class="btn">About</a>
-      <!--this is an a tag, it is a link, href is hypertext reference, you can put two different types of links, if you're linking to something in your website directory, it should always be a relative path(about.html), this works because about.html is within my-website folder-->
-      <a href="contact.html" class="btn">Contact</a>
-      <!-- <a href="" class="hamburger">
-        <span></span>
-        <span></span>
-        <span></span>
-      </a> creates hamburger menu-->
-    </div>
-  </nav>
+    <nav class="nav-header"> <!--containers, don't do much, are descriptive for syling and accessibility-->
+      <div class="btn-group left">
+        <a href="index.html" class="btn">Home</a>
+      </div>
+      <div class="btn-group right">
+        <a href="about.html" class="btn">About</a> <!--this is an a tag, it is a link, href is hypertext reference, you can put two different types of links, if you're linking to something in your website directory, it should always be a relative path(about.html), this works because about.html is within my-website folder-->
+        <a href="contact.html" class="btn">Contact</a>
+      </div>
+    </nav>
 
-  <header class="page-name">
-    <h1>Stuff About Me</h1>
-  </header>
+    <header class="container">
+      <h1>Stuff About Me</h1>
+    </header>
 
-  <article class="info">
-    <div class="list-1 left">
+    <article class="info">
+      <div class="list-1 left">
       <h2 class="list-group">Random TV Shows I Like</h2>
       <ul>
         <li><a href="https://en.wikipedia.org/wiki/Game_of_Thrones">Game of Thrones</a></li>
         <li><a href="https://en.wikipedia.org/wiki/Sons_of_Anarchy">Sons of Anarchy</a></li>
         <li><a href="https://en.wikipedia.org/wiki/The_Office_(U.S._TV_series)">The Office</a></li>
         <li><a href="https://en.wikipedia.org/wiki/How_I_Met_Your_Mother">How I Met Your Mother</a></li>
-        <li><a href="https://en.wikipedia.org/wiki/Girls_(TV_series)">Girls</a></li>
-        <!--small is an inline element-->
+        <li><a href="https://en.wikipedia.org/wiki/Girls_(TV_series)">Girls</a></li> <!--small is an inline element-->
       </ul>
-    </div>
-    <div class="list-2 right">
+      </div>
+      <div class="list-2 right">
       <h2 class="list-group">Random Books I Like</h2>
       <ul>
         <li>Consider The Lobster</li>
@@ -61,25 +49,25 @@
     <div class="list-3">
       <h2 class="fact-sheet">Random Facts</h2>
       <p class="facts"> I have a german shepherd named Chloe. Here she is:</p>
-      <div class="photo">
-        <img src="./img/chloe.jpg" alt="My dog Chloe">
+        <div class="photo">
+          <img src="./img/chloe.jpg" alt="My dog Chloe">
+        </div>
+          <p class="facts"> I'm on level 1819 on Candy Crush. </p>
+          <p class="facts"> I have 22 cousins. </p>
+          <p class="facts"> I've played field hockey for 12 years. </p>
+        <div class="photo">
+          <img src="./img/FH.jpg" alt="My FH Team">
+        </div>
+          <p class="facts"> I have a BA in English from Haverford College. </p>
+          <p class="facts"> I've never eaten a kiwi. </p>
       </div>
-      <p class="facts"> I'm on level 1819 on Candy Crush. </p>
-      <p class="facts"> I have 22 cousins. </p>
-      <p class="facts"> I've played field hockey for 12 years. </p>
-      <div class="photo">
-        <img src="./img/FH.jpg" alt="My FH Team">
-      </div>
-      <p class="facts"> I have a BA in English from Haverford College and wrote my thesis on Redeployment by Phil Klay. </p>
-      <p class="facts"> I've never eaten a kiwi. </p>
-    </div>
-  </article>
+    </article>
 
-  <footer class="bye-box">
-    <p><small>Thanks for coming!</small></p>
-    <p><small> &copy; NMW</small></p>
-  </footer>
+    <footer class="bye-box">
+      <p><small>Thanks for coming! </small></p>
+      <p><small> &copy; NMW</small></p>
+    </footer>
 
-</body>
+  </body>
 
 </html>
